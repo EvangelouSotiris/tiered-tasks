@@ -9,12 +9,12 @@ const Task = (props) => {
         <div className="task">
             <div className="titleAndPoints">
                 {props.type === 0
-                ? <input style={{height: '2em', maxWidth: '50%'}} type='text' placeholder={props.title} value={title} onChange={e => setTitle(e.target.value)}/>
+                ? <input style={{height: '2.5em', maxWidth: '50%', borderRadius: '5px'}} type='text' placeholder={props.title} value={title} onChange={e => setTitle(e.target.value)}/>
                 : <h3>{props.title}</h3>
                 }
                 
                 {props.type === 0
-                ? <h4 style={{color: '#44AF69'}}><input type='number' style={{height: '2em',width: '40px'}} value={points} onChange={e => setPoints(e.target.value)}/> points</h4>
+                ? <h4 style={{color: '#44AF69'}}><input type='number' step={10} max={50} min={10} style={{height: '2.5em',width: '30px', borderRadius: '5px'}} value={points} onChange={e => setPoints(e.target.value)}/> points</h4>
                 : <h4 style={{color: '#44AF69'}}>{props.points} points</h4>
                 }
             </div>

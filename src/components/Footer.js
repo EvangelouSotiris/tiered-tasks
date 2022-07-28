@@ -10,7 +10,8 @@ const Footer = (props) => {
         <div className="footer">
             <a
                 className="githubIcon"
-                href={'/#'}
+                href={'https://github.com/EvangelouSotiris/tiered-tasks'}
+                target={'_blank'}
             ><i className="fa fa-github-alt"></i></a>
             <button className="footerButton" onClick={removeLocalStorage}>
                 Clean my Data

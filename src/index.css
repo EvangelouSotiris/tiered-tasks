@@ -3,6 +3,11 @@ body {
   font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+   opacity: 1;
+}
+
 .container {
   color: #93B7BE;
   display: flex;
@@ -69,6 +74,16 @@ body {
 .tasklist {
   color: white;
   padding-top: 100px;
+}
+
+.errMessage {
+  margin: 20px;
+  padding: 20px;
+  width: 100% fit-content;
+  background-color: brown;
+  color: white;
+  border: pink;
+  border-radius: 5px;
 }
 
 /* TASK */

@@ -7,6 +7,8 @@ const TaskList = (props) => {
 
     const [completedTasks, setCompletedTasks] = useState(props.completedTasks)
 
+    const [errMessage, setErrMessage] = useState(false)
+
     let max = 1
     if (props.completedTasks.length > 0 || props.todayTasks.length > 0) {
         let existingKeys = [...props.completedTasks.map(task => task.key), ...props.todayTasks.map(task => task.key)]
@@ -24,7 +26,12 @@ const TaskList = (props) => {
     }, [completedTasks]);
     
     const saveNew = (title, points, key) => {
-        setTasksForTheDay([...tasksForTheDay.filter(task => task.key !== key), { title, points: parseInt(points), type: 1, key}])
+        if (points < 10 || points > 50) {
+            setErrMessage(true)
+        } else {
+            setErrMessage(false)
+            setTasksForTheDay([...tasksForTheDay.filter(task => task.key !== key), { title, points: parseInt(points), type: 1, key}])
+        }
     }
 
     const addNew = () => {
@@ -50,6 +57,7 @@ const TaskList = (props) => {
 
     return(
         <header className="tasklist">
+            {errMessage && <h4 className="errMessage">Tasks give 10-50 points! 10 points for the easy peasy ones, 50 for the pain in the ass ones!</h4>}
             <div style={{display: 'flex', justifyContent: 'space-between'}}>
                 <h3 className="todayTasks">Uncompleted tasks: {tasksForTheDay.length}</h3>   
                 <button onClick={addNew} className="addNewTask">New</button>
