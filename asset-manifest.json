@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/tiered-tasks/static/css/main.9b85019e.css",
-    "main.js": "/tiered-tasks/static/js/main.cf5474ee.js",
-    "static/js/787.132e0ec8.chunk.js": "/tiered-tasks/static/js/787.132e0ec8.chunk.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/tiered-tasks/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/tiered-tasks/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/tiered-tasks/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/tiered-tasks/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/tiered-tasks/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/tiered-tasks/index.html",
-    "main.9b85019e.css.map": "/tiered-tasks/static/css/main.9b85019e.css.map",
-    "main.cf5474ee.js.map": "/tiered-tasks/static/js/main.cf5474ee.js.map",
-    "787.132e0ec8.chunk.js.map": "/tiered-tasks/static/js/787.132e0ec8.chunk.js.map"
+    "main.css": "/tieredtasks/static/css/main.5553b27d.css",
+    "main.js": "/tieredtasks/static/js/main.35a5c106.js",
+    "static/js/787.132e0ec8.chunk.js": "/tieredtasks/static/js/787.132e0ec8.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/tieredtasks/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/tieredtasks/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/tieredtasks/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/tieredtasks/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/tieredtasks/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/tieredtasks/index.html",
+    "main.5553b27d.css.map": "/tieredtasks/static/css/main.5553b27d.css.map",
+    "main.35a5c106.js.map": "/tieredtasks/static/js/main.35a5c106.js.map",
+    "787.132e0ec8.chunk.js.map": "/tieredtasks/static/js/787.132e0ec8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b85019e.css",
-    "static/js/main.cf5474ee.js"
+    "static/css/main.5553b27d.css",
+    "static/js/main.35a5c106.js"
   ]
 }
