@@ -50,7 +50,7 @@ const Navbar = (props) => {
     return(
         <header className="navbar">
             <ProgressBar percentage={props.progress%100} />
-            <h3 style={{color: '#ce89ee', margin: '15px'}}>Level {Math.floor(props.progress/100)}: {categories[Math.floor(props.progress/100)]}</h3>
+            <h3 style={{color: 'white', margin: '15px'}}>Level {Math.floor(props.progress/100)}: {categories[Math.floor(props.progress/100)]}</h3>
         </header>
     )
 }
