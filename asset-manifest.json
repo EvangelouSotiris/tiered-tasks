@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tiered-tasks/static/css/main.9b85019e.css",
-    "main.js": "/tiered-tasks/static/js/main.cf5474ee.js",
+    "main.css": "/tiered-tasks/static/css/main.43910acc.css",
+    "main.js": "/tiered-tasks/static/js/main.098127d8.js",
     "static/js/787.132e0ec8.chunk.js": "/tiered-tasks/static/js/787.132e0ec8.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/tiered-tasks/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/tiered-tasks/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -9,12 +9,12 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/tiered-tasks/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/tiered-tasks/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/tiered-tasks/index.html",
-    "main.9b85019e.css.map": "/tiered-tasks/static/css/main.9b85019e.css.map",
-    "main.cf5474ee.js.map": "/tiered-tasks/static/js/main.cf5474ee.js.map",
+    "main.43910acc.css.map": "/tiered-tasks/static/css/main.43910acc.css.map",
+    "main.098127d8.js.map": "/tiered-tasks/static/js/main.098127d8.js.map",
     "787.132e0ec8.chunk.js.map": "/tiered-tasks/static/js/787.132e0ec8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b85019e.css",
-    "static/js/main.cf5474ee.js"
+    "static/css/main.43910acc.css",
+    "static/js/main.098127d8.js"
   ]
 }
